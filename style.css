@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #fac000;
+}
+#box{
+    width: 90%;
+    height: 70%;
+    background-color: #191919;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+
+}
+#nav{
+    width: 30%;
+    height: 10%;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#nav i{
+    color: white;
+}
+#box img{
+    width: 80px;
+    position: relative;
+    top: 2%;
+    left: 2%;
+}
+#box h1{
+    color: rgba(255, 255, 255, 0.158);
+    font-size: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 18%;
+    left: 15%;
+}
+#air img{
+    width: 45%;
+    position: absolute;
+    top: -30%;
+    left: 30%;
+    rotate: calc(-15deg);
+}
+#box2 h1{
+    color: #fac000;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+#box2 p{
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+}
+#box2 h2{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    left: 10%;
+    top: 50%;
+}
+#box hr{
+    width: 180%;
+    position: absolute;
+    left: 110%;
+    bottom: 50%;
+    
+}
+#box2 h3{
+    color: white;
+    position: absolute;
+    bottom: 4%;
+    left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+   
+}
+.box3 h3{
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+#box h2{
+    font-size: 35px;
+    color: white;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    right: 15%;
+    bottom: 25%;
+}
+.box3 h4{
+    color: white;
+    position: absolute;
+    right: 0;
+    rotate: calc(-90deg);
+}
+.box3 h5{
+    color: white;
+    position: absolute;
+    right: 2.2%;
+    bottom: 50%;
+    font-size: 30px;
+    rotate: calc(-90deg);
+}
+.box4{
+    width: 2%;
+    height: 15%;
+    background-color: transparent;
+    position: absolute;
+    right: 1.5%;
+    bottom: 5%;
+   
+}
+.box4 i{
+    color: white;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+#box2 img{
+    width: 35%;
+    rotate: calc(-20DEG);
+    position: absolute;
+    top: -10%;
+    left: 50%;
+}
